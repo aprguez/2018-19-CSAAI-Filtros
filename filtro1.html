@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro 1</title>
+    <link rel="stylesheet" href="filtro1.css">
+    <script src="filtro1.js"></script>
+  </head>
+  <body onload="main();">
+      <img src="black-hole.jpg" id="imagesrc">
+      <h1>Imagen original</h1>
+
+      <canvas id="display"></canvas>
+      <h1>Imagen manipulada</h1>
+      <br>
+      <button type="button" id="original">IMAGEN ORIGINAL</button>
+      <button type="button" id="gris">GRIS</button>
+      <br>
+      <input type="range" id="deslizador_R" min="0" max="255" value="255"/>
+      <p id="range_valueR">255</p>
+      <input type="range" id="deslizador_V" min="0" max="255" value="255"/>
+      <p id="range_valueV">255</p>
+      <input type="range" id="deslizador_A" min="0" max="255" value="255"/>
+      <p id="range_valueA">255</p>
+
+  </body>
+</html>
